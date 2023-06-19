@@ -1,0 +1,71 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 5%;
+  background: #333;
+  text-align: center;
+  color: brown;
+}
+
+.presentation {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 28%;
+
+  font-size: 33px;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin: 40px auto 20px;
+  width: 100%;
+  max-width: 798px;
+}
+
+b {
+  position: absolute;
+  font-size: 30px;
+}
+
+b:first-of-type {
+  top: 62%;
+  right: 40%;
+  transition: visibility .1s;
+}
+b:first-of-type .hide {
+    transition: visibility .1s;
+}
+
+b:nth-of-type(2) {
+  top: 59%;
+  right: 39%;
+  transition: visibility .3s;
+}
+b:nth-of-type(2) .hide {
+  transition: visibility .3s;
+}
+
+b:nth-of-type(3) {
+  top: 58%;
+  right: 38%;
+  transform: translateX(-4px);
+  font-size: 23px;
+  transition: visibility .5s;
+}
+b:nth-of-type(2) .hide {
+  transition: visibility .5s;
+}
+
+a {
+  color: #ddd;
+}
+
+.hide {
+  visibility: hidden;
+}
